@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bg-light p-5 rounded-3">
+            <div class="container-fluid py-4">
+                <h1 class="display-5 fw-bold">Two-One</h1>
+                <p class="col-md-8 fs-4">Cuando algo es lo suficientemente importante, lo haces incluso si las probabilidades de que salga bien no te acompañan - Elon Musk</p>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Información
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">Two-One</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Two-One es una agencia de Marketing, con mas de 2 años de experiencia.
+                          <hr>
+                          <p>
+                             Si deseas una asesoria puedes <a href="#" role="button" class="btn btn-danger" data-bs-toggle="popover" title="no me digas" data-bs-content="Popover body content is set in this attribute.">contactarme</a> 
+                          </p>
+                          <hr>
+                          <p>esto es un <a href="#" data-bs-toggle="tooltip" title="Mira esa monda">Tooltip</a></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-primary">Aceptar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <hr>
+        <h1 class="mb-4">Formulario</h1>
+        <div class="container">
+            <div class="input-group p-2 row">
+                <div class="col">
+                <label for="Nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="Nombre">
+                </div>
+            </div>
+            <div class="input-group mb-1 p-2 row">
+                <div class="col">
+                <label for="Teléfono" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" placeholder="Teléfono" aria-label="Teléfono" id="Teléfono">
+                </div>
+            </div>
+            <div class="form p-2">
+                <label for="validationTextarea" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Deja un comentario" required></textarea>
+              </div>
+        </div>
+        <hr>
+        <div class="card" style="width: 18rem;">
+            
+            <div class="card-body">
+              <h5 class="card-title">Yojhan Morales</h5>
+              <p class="card-text">Soy Front-end Developer, manejo tecnologías como HTML5, CSS3 y JavaScript. Especializado en diseño de páginas web.</p>
+              <a href="#" class="card-link">yojhanmorales0@gmail.com</a>
+            </div>
+          </div>
+       </div> 
+</body>
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+</script>
+</html>
